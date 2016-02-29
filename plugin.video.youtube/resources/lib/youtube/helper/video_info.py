@@ -134,6 +134,13 @@ class VideoInfo(object):
                 'video': {'height': 720, 'encoding': 'vp8'},
                 'audio': {'bitrate': 192, 'encoding': 'vorbis'}},
         # === Live Streams ===
+        # to do : itag 91
+        '91': {'container': 'ts',
+               'Live': True,
+               'title': 'Live@144p',
+               'sort': [144, 0],
+               'video': {'height': 144, 'encoding': 'h.264'},
+               'audio': {'bitrate': 48, 'encoding': 'aac'}},
         '92': {'container': 'ts',
                'Live': True,
                'title': 'Live@240p',
@@ -424,7 +431,7 @@ class VideoInfo(object):
                         yt_format = self.FORMAT.get(itag, None)
 
                         if not yt_format:
-                            raise Exception('unknown yt_format for itag "%s"' % itag)
+                            raise Exception('(_method_watch:url) unknown yt_format for itag "%s"' % itag)
 
                         # this format is discontinued
                         if yt_format.get('discontinued', False):
@@ -442,7 +449,7 @@ class VideoInfo(object):
                         yt_format = self.FORMAT.get(itag, None)
                         yt_format['rtmpe'] = True
                         if not yt_format:
-                            raise Exception('unknown yt_format for itag "%s"' % itag)
+                            raise Exception('(_method_watch:conn) unknown yt_format for itag "%s"' % itag)
                         video_stream = {'url': url}
                         video_stream.update(yt_format)
 
@@ -492,7 +499,7 @@ class VideoInfo(object):
                     itag = re_itag_match.group('itag')
                     yt_format = self.FORMAT.get(itag, None)
                     if not yt_format:
-                        raise Exception('unknown yt_format for itag "%s"' % itag)
+                        raise Exception('(_load_manifest) unknown yt_format for itag "%s" line "%s"' % (itag, line))
 
                     width = int(re_match.group('width'))
                     height = int(re_match.group('height'))
@@ -613,7 +620,7 @@ class VideoInfo(object):
                     itag = stream_map['itag']
                     yt_format = self.FORMAT.get(itag, None)
                     if not yt_format:
-                        raise Exception('unknown yt_format for itag "%s"' % itag)
+                        raise Exception('(_method_get_video_info:url) unknown yt_format for itag "%s"' % itag)
 
                     if yt_format.get('discontinued', False):
                         continue
@@ -629,7 +636,7 @@ class VideoInfo(object):
                     itag = stream_map['itag']
                     yt_format = self.FORMAT.get(itag, None)
                     if not yt_format:
-                        raise Exception('unknown yt_format for itag "%s"' % itag)
+                        raise Exception('(_method_get_video_info:conn) unknown yt_format for itag "%s"' % itag)
                     yt_format['video']['rtmpe'] = True
                     video_stream = {'url': url,
                                     'meta': meta_info}
