@@ -23,52 +23,52 @@ class LoginClient(object):
         'youtube-for-kodi-quota': {
             'token-allowed': False,
             'system': 'All',
-            'key': 'AIzaSyBLzlcN2eCzOhnl1WhyX0kYuyu-kwshDt8',
-            'id': '707691027705-s4mq8q747f8mrb0vjcn3jvp17af4819o.apps.googleusercontent.com',
-            'secret': 'r_95MHjK38AyCkoEQm8fzcCM'
+            'key': 'AIzaSyBhQvk9fuc6y_0_vdOJn3g5HiGugplyUwg',
+            'id': '1027139679087-8odn2pq90u92qnna7h7j16lp80pabjfq.apps.googleusercontent.com',
+            'secret': 'Z750d1Cs4OtBgwlPOBraz-8u'
         },
         'youtube-for-kodi-fallback': {
             'token-allowed': False,
             'system': 'Fallback!',
-            'key': 'AIzaSyAUjiaAUOcm6wmA8BHMloDby6U4RMtKLvs',
-            'id': '970514987436-b1rlhh1sf3fufqcvlm2a2taa2tq4t5uc.apps.googleusercontent.com',
-            'secret': 'zFaJYGEbvx329c8G_GPO5RJ3'
+            'key': 'AIzaSyDXacvXHzPce8UJPK_SJXkvGVS2sjw5ngc',
+            'id': '932124282136-1h2fg2a2bfahpkvbg8nk05injmcm60ao.apps.googleusercontent.com',
+            'secret': 'Z9ctN0RAzB2w0sWuDFnGiLH2'
         },
         'youtube-for-kodi-12': {
             'system': 'Frodo',
-            'key': 'AIzaSyCDn_9EybTJiymHipNS3jk5ZpCTXdCotQ0',
-            'id': '947596709414-08nrn314d8j3k91cl4f51srcu6m19hvu.apps.googleusercontent.com',
-            'secret': 'HsLT2ZCexIV-VFxWeYVZ2TUc'
+            'key': 'AIzaSyAtSGFXt7PierQaetyz_zawg6SiMQbEoLU',
+            'id': '132924520075-4bfjom7ig91dgaum22gnnqs54o0pm3cr.apps.googleusercontent.com',
+            'secret': 'UGiB-A2ti-QbrWWeW1ijZaBy'
         },
         'youtube-for-kodi-13': {
             'system': 'Gotham',
-            'key': 'AIzaSyAmrf3BneEQPDiUEuQlzy0_rbFGDBg-bi0',
-            'id': '448940676713-min9u5frfujprbnb8f3dri3cv9jr32rn.apps.googleusercontent.com',
-            'secret': '79vMsJsNC9jypSfryUMu00jW'
+            'key': 'AIzaSyCmGt3h1JNxoToALdQTECpK5V5dUQXZh8I',
+            'id': '566042245832-qo8a0d9gag422gb2qqneb9k38t1qmi0k.apps.googleusercontent.com',
+            'secret': '5PbZ5SXOQmn95V-oRONbVXxO'
         },
         'youtube-for-kodi-14': {
             'system': 'Helix',
-            'key': 'AIzaSyCCnZImC7gTniNfgwqGwixIdBVGxiCOKlU',
-            'id': '107500767506-9mvbaacuscf8cge2n3kkvj50a6dnrk8g.apps.googleusercontent.com',
-            'secret': '2ceVfognBCtn8uh20HmlJN4X'
+            'key': 'AIzaSyDoGc3e7QRlWAn6ukQFoezx3uU2GAynYEI',
+            'id': '679912363153-72r33u32en0k2htqqvrdtt1mt4km013d.apps.googleusercontent.com',
+            'secret': 'GVWjcVQ4q-wKqcqdCrAvdZhM'
         },
         'youtube-for-kodi-15': {
             'system': 'Isengard',
-            'key': 'AIzaSyATqDim-56y8HcN1NAzQdVZgdMoc6d9Eys',
-            'id': '610696918705-bkt6v536k7gn2dtcv8vdngm4b0vt5sev.apps.googleusercontent.com',
-            'secret': 'kV7ReP1f_Lg9i2hWR2liHnO6'
+            'key': 'AIzaSyA5DyO2a9ThpAgQxwVH64Q6MFjgyn5OCdI',
+            'id': '939835029889-8ipk31auh8snah3ned7t1eqsqeqags4a.apps.googleusercontent.com',
+            'secret': '_9TDAhqdbg-6Fl5_1z1S0ghh'
         },
         'youtube-for-kodi-16': {
             'system': 'Jarvis',
-            'key': 'AIzaSyBS3rNymJtzPYbJX5lSGdNCBS6ajh4VDDY',
-            'id': '879761788105-sduf0ht335dvg923ane7cg1jnt1d5l4k.apps.googleusercontent.com',
-            'secret': 'vBVDa-kNdCHDTkpD8b8HO718'
+            'key': 'AIzaSyB4Wy7VEoCvtcgReJCzKKAZCP1aZyvjuWo',
+            'id': '826708200151-iqi7ovuv4bg3guinsladtd9tq7h08rcb.apps.googleusercontent.com',
+            'secret': '78EjmWrQOWfK5GaCxqe4Tx4w'
         },
         'youtube-for-kodi-17': {
             'system': 'Krypton',
-            'key': 'AIzaSyBynxCrJOe3NWa4l2VezTHWVIQOrI9nPgY',
-            'id': '167759489832-579ic1cjlk5j6fg6bo6d7btvces6528p.apps.googleusercontent.com',
-            'secret': 'n93VQADkcc-HIqbx_kvnpAs4'
+            'key': 'AIzaSyCf60r8v8K8isYOt4pfcLfAOgyaiOl2gQM',
+            'id': '876361093606-df4dudti2a3j7pksvuvqibr1kmtb7607.apps.googleusercontent.com',
+            'secret': 'mJlpCXQUjKwxQ5KLihh7uJBo'
         }
     }
 
