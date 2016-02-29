@@ -1,3 +1,7 @@
+5.1.20 (2016-02-26)
+[fix] Live folder is now working. Change API key for kodi 12 and kodi 13. rasberryrabbit
+[upd] Add itag 91. This info extract from .ts file from playlist. rasberryrabbit
+
 5.1.19 (2016-02-24)
 [fix] Final fix for API
 
